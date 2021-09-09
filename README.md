@@ -13,3 +13,6 @@ Here is a batting profile of the Washinton National's Juan Soto. It may be misle
 
 ## Volatility_Forecasting
 Here is my submission for the Optiver Volatility Forcasting competition. My strategy was to extract features from the order book dataset and perform a regression analysis. It turns out that the volatility of the second level of the order book is highly correlated with the next 10 minute market price volatility.
+
+## FourierTransform
+Here is a short notebook demonstrating the Fourier transformation and the inverse Fourier transformation to an example image. It shows that we can take a noisy image, apply the Fourier transformation, reduce the image to keeping certain low frequencies (100, 400, 1600 pixels of 512x512 image) and reconstruct a smoothed image that is similar to the original through the inverse Fourier Transform. 
